@@ -18,23 +18,23 @@ ul {
     display: table;
 }
 
-.status {
-    margin-bottom: 10px;
-}
-
 .square {
     background: #fff;
-    border: 1px solid #999;
+    color: #006666;
+    border: 2px solid #999;
     float: left;
-    font-size: 24px;
+    font-size: 60px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 120px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 120px;
+    margin: 1px;
+    box-shadow: 4px 4px 4px #888,
+    -4px -4px 4px #888;
 }
 
 .square:focus {
@@ -52,4 +52,34 @@ ul {
 
 .game-info {
     margin-left: 20px;
+    background-color: #aaa;
+    padding: 5px 5px 0 5px;
+}
+
+.game-info li {
+    background-color: #575757;
+    padding: 3px;
+    margin-bottom: 3px;
+}
+
+.game-info ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 5px;
+}
+
+.game-info button {
+    font-weight: bold;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.game-info div {
+    margin-bottom: 0px;
+    font-size: 28px;
+    color: white;
+    background-color: #006666;
+    padding: 10px 20px 10px 15px;
 }
